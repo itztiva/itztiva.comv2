@@ -9,11 +9,8 @@ export const metadata: Metadata = {
     default: "itztiva",
     template: "%s | itztiva",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
   openGraph: {
     title: "itztiva",
-    description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
     url: "https://itztiva",
     siteName: "itztiva",
     images: [

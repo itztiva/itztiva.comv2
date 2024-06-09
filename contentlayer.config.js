@@ -51,6 +51,7 @@ export const Page = defineDocumentType(() => ({
 			type: "string",
 			required: true,
 		},
+
 	},
 	computedFields,
 }));

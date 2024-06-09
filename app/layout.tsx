@@ -9,8 +9,10 @@ export const metadata: Metadata = {
     default: "itztiva",
     template: "%s | itztiva",
   },
+  description: "Learn all about Itztiva!",
   openGraph: {
     title: "itztiva",
+    description: "Learn all about Itztiva!",
     url: "https://itztiva",
     siteName: "itztiva",
     images: [

@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
+import { useEffect } from 'react'
 import { motion, useAnimation } from 'framer-motion'
 import { Github, Globe, Twitter } from 'lucide-react'
 import Link from 'next/link'

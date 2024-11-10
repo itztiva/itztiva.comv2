@@ -64,19 +64,19 @@ export default function Portfolio() {
           <h2 className="text-2xl font-semibold mb-4">Featured Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <ProjectCard
-              title="idk"
-              description="idk"
-              link="https://github.com/itztiva/project1"
+              title="Nexa"
+              description="An open source Fortnite Backend!"
+              link="https://github.com/itztiva/Nexa"
             />
             <ProjectCard
-              title="idk"
-              description="idk"
-              link="https://github.com/itztiva/project1"
+              title="Tivan Studios"
+              description="A Game Studio I'm working on!"
+              link="https://github.com/Tivan-Studios/"
             />
             <ProjectCard
-              title="idk"
-              description="idk"
-              link="https://github.com/itztiva/project1"
+              title="fortmp"
+              description="OG Fortnite Project"
+              link="https://github.com/fort-mp/"
             />
           </div>
         </div>

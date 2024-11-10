@@ -1,8 +1,17 @@
-import "../global.css";
-import { Inter } from "@next/font/google";
-import LocalFont from "@next/font/local";
-import { Metadata } from "next";
-import { Analytics } from "./components/analytics";
+import type { Metadata } from "next";
+import localFont from "next/font/local";
+import "./globals.css";
+
+const geistSans = localFont({
+  src: "./fonts/GeistVF.woff",
+  variable: "--font-geist-sans",
+  weight: "100 900",
+});
+const geistMono = localFont({
+  src: "./fonts/GeistMonoVF.woff",
+  variable: "--font-geist-mono",
+  weight: "100 900",
+});
 
 export const metadata: Metadata = {
   title: {
@@ -13,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "itztiva",
     description: "Learn all about Itztiva!",
-    url: "https://itztiva",
+    url: "https://itztiva.com",
     siteName: "itztiva",
     images: [
       {
@@ -44,29 +53,16 @@ export const metadata: Metadata = {
     shortcut: "/favicon.png",
   },
 };
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-});
-
-const calSans = LocalFont({
-  src: "../public/fonts/CalSans-SemiBold.ttf",
-  variable: "--font-calsans",
-});
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
-    <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
-      <head>
-        <Analytics />
-      </head>
+    <html lang="en">
       <body
-        className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
-          }`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
       </body>

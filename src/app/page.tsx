@@ -50,7 +50,7 @@ export default function Portfolio() {
         animate={controls}
       >
         <h1 className="text-6xl font-bold mb-4 text-center">Itztiva</h1>
-        <p className="text-xl mb-4 text-center bg-black bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-md px-5 py-4 flex items-center justify-center space-x-6 shadow-lg">Hi!, I'm a 15 year old programmer from the United States.</p>
+        <p className="text-xl mb-4 text-center bg-black bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-md px-5 py-4 flex items-center justify-center space-x-6 shadow-lg">Hi!, I'm a 14 year old programmer from the United States.</p>
         <div className="text-center mb-12">
           <div className="flex flex-wrap justify-center items-center gap-8 mt-4 bg-black bg-opacity-30 backdrop-filter backdrop-blur-lg rounded-md px-4 py-4 flex items-center justify-center space-x-6 shadow-lg">
             <LanguageIcon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" alt="TypeScript" />

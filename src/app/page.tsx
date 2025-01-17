@@ -74,9 +74,9 @@ export default function Portfolio() {
               link="https://github.com/Tivan-Studios/"
             />
             <ProjectCard
-              title="fortmp"
+              title="Solaris"
               description="OG Fortnite Project"
-              link="https://github.com/fort-mp/"
+              link="https://discord.gg/solarisfn"
             />
           </div>
         </div>

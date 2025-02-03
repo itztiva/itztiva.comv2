@@ -313,4 +313,3 @@ function ProjectCard({ title, description, link }: { title: string; description:
     </motion.a>
   )
 }
-

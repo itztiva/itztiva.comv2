@@ -54,7 +54,7 @@ export default function Portfolio() {
   return (
     <div className="min-h-screen to-black text-gray-300 font-sans relative">
       <Particless className="absolute inset-0" quantity={600} />
-      <nav className="fixed top-0 left-0 h-screen w-16 flex flex-col items-center justify-center space-y-8 bg-[#1a1a1a] z-50">
+      <nav className="fixed top-0 left-0 h-screen w-16 flex flex-col items-center justify-center space-y-8 z-50">
         {sections.map((section, index) => (
           <motion.div
             key={section}

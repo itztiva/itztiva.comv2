@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: "itztiva",
     images: [
       {
-        url: "https://itztiva/og.png",
+        url: "./favicon.png",
         width: 1920,
         height: 1080,
       },
